@@ -1,0 +1,72 @@
+
+body.light-mode {
+  background-color: rgb(3, 141, 95);
+}
+
+.light-mode .navbar {
+  background-color: rgb(255, 255, 255); 
+  color: rgb(0, 0, 0); 
+}
+
+.light-mode .btn {
+  background-color: rgb(255, 255, 255);
+  color: rgb(3, 141, 95);
+  border-color: rgb(0, 119, 73);
+}
+
+.light-mode .btn:hover {
+  background-color: rgb(3, 141, 95);
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+}
+
+.light-mode h1, .light-mode h2 {
+  color: rgb(255, 255, 255);
+}
+
+.light-mode textarea {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.light-mode .p1{
+  color: rgb(255, 255, 255);
+}
+
+body.dark-mode {
+  background-color: rgb(20, 0, 39);
+}
+
+.dark-mode .navbar {
+  background-color:  rgb(23, 23, 26);
+  color:  rgb(255, 255, 255);
+}
+
+.dark-mode .btn {
+  background-color: rgb(23, 23, 26);
+  color: rgb(255, 255, 255);
+  border-color: rgb(100, 100, 100);
+}
+
+.dark-mode .btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(23, 23, 26);
+  border-color: rgb(50, 50, 50);
+}
+
+.dark-mode h1, .dark-mode h2 {
+  color: rgb(255, 255, 255);
+}
+
+.dark-mode textarea {
+  background-color: rgb(23, 23, 26);
+  color: rgb(255, 255, 255);
+}
+
+.dark-mode p{
+  color: rgb(255, 255, 255);
+}
+
+.alert-height{
+  height: 20px;
+}
